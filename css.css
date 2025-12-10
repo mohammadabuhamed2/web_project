@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, sans-serif;
+=======
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+>>>>>>> 7e13720df93b8a39a4f8dcd42d4b2c57cae12eec
 }
 
 .navbar {
@@ -52,6 +60,10 @@ body {
 }
 
 .hero {
+<<<<<<< HEAD
+=======
+    position: relative;
+>>>>>>> 7e13720df93b8a39a4f8dcd42d4b2c57cae12eec
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -65,7 +77,11 @@ body {
     content: "";
     position: absolute;
     inset: 0;
+<<<<<<< HEAD
     background: url("about.png") center/contain no-repeat;
+=======
+    background: url("image/about.png") center/contain no-repeat;
+>>>>>>> 7e13720df93b8a39a4f8dcd42d4b2c57cae12eec
     opacity: 0.1;
     z-index: -1;
 }
@@ -105,6 +121,7 @@ body {
 
 
 .hero-image img {
+<<<<<<< HEAD
     width: 480px;
     max-width: 100%;
     display: block;
@@ -169,3 +186,9 @@ body {
     padding-bottom: 2.5vh;
     font-size: 14px;
 }
+=======
+    width: 480px;         
+    max-width: 100%;
+    display: block;
+}
+>>>>>>> 7e13720df93b8a39a4f8dcd42d4b2c57cae12eec
